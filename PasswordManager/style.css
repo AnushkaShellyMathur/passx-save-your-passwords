@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+    padding: 8px 3px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    margin: 0 23px;
+    align-items: center;
+}
+
+ul>li {
+    list-style: none;
+    margin: 0 13px;
+}
+
+ul>li:hover {
+    color: aquamarine;
+}
+
+.logo {
+    margin: 0 23px;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+
+    /* Add space above the table */
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    /* Add padding to table cells */
+    text-align: center;
+    /* Align text to the left */
+}
+
+.container {
+    max-width: 80vw;
+    margin: 23px auto;
+}
+
+h1,
+h2,
+h3 {
+    margin: 23px 0;
+}
+
+.btn {
+    padding: 8px 17px;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    border: 2px solid gray;
+    border-radius: 8px;
+    margin: 25px 0;
+    cursor: pointer;
+}
+
+.btnsm {
+    padding: 8px 17px;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    border: 2px solid gray;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+img{
+    cursor: pointer;
+}
